@@ -1,7 +1,7 @@
 # chart.js-date-time-php-mysql-jquery
 chart.js to plot graph between selected date with time </br>
 chart.js fetches data from mysql db through jquery XHTML request.</br>
-
+<pre>
 <script>
 function dsptemp(tempb,time) 
 {
