@@ -17,9 +17,8 @@ class Database{
    }
   
       public function open_db_connection(){
-         
-        //    $this->connection = new mysqli("localhost", "usrDbRIdashTest", "2,h6uc1+cm+]1bsd", "roboicsi_dbRIdashTest__device_console");
-           $this->connection = new mysqli("localhost", "root", "", "smartivf");
+                 
+           $this->connection = new mysqli("localhost", "root", "", "datetime");
 
            if($this->connection->connect_errno){
 
